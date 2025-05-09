@@ -8,6 +8,7 @@
     width: 900px;
     margin:0 auto;
 }
+
 .inner-pd{
     padding: 30px 0;
 }
@@ -228,4 +229,29 @@ address p a{
     line-height: 40px;
     color: #686868;
     font-size: 12px;
+}
+/*900이하 구간*/
+
+@media screen and (max-width:900px){
+
+    .container{
+        width: 100%;
+        padding-left: 14px;
+        padding-right: 14px;
+        box-sizing: border-box;
+    }
+
+    .portfolio div ul{
+        
+        gap:0;
+    }
+
+
+    .porfolio-list li{
+        width: 100%;
+    }
+    
+    
+
+   
 }
