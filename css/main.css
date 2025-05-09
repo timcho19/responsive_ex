@@ -39,26 +39,21 @@ nav{
     height: 40px;
     padding: 6px 0;
     box-sizing:border-box;
+
+}
+nav > div{
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul {
+    display: flex;
 }
 nav .main-menu{
-    float:left;
+    gap: 35px;    
 }
 nav .social-menu{
-    float:right;
-}
-nav ul li{
-    float:left;
-}
-nav ul:after{
-    content:'';
-    clear:both;
-    display: block;
-}
-nav .main-menu li{
-    margin-right: 37px;    
-}
-nav .social-menu li{
-    margin-left: 25px;
+    gap:25px;
 }
 nav .main-menu li a{
     color:#fff;
@@ -67,6 +62,7 @@ nav .main-menu li a{
     font-weight:bold;
     line-height:28px;
 }
+
 header {
     text-align:center;
     padding:23px 0 42px;
@@ -86,6 +82,10 @@ header h2{
 /* ----------- feature ---------- */
 .feature {
     background: #363636;
+    
+}
+.feature ul{
+    display: flex;
 }
 .feature li{
     width: 33.333333%;
