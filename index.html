@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Design Portfolio</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
 
 
 </head>
@@ -135,5 +136,26 @@
 			<p>&copy; copyright 2021, My Portfolio Designs</p>
 		</div>
 	</footer>
+
+	<script>
+		const menuIcon = document.querySelector('.menu-icon');
+		const mainMenu = document.querySelector('nav .main-menu');
+		/*
+		클릭하면 active 추가
+		다시클릭하면 제거
+		*/
+
+		menuIcon.addEventListener('click',()=>{
+			mainMenu.classList.toggle("active");
+		});
+
+		// window.addEventListener('resize',function(){
+		// 	if(window.innerWidth > 600){
+		// 		mainMenu.style.display = 'block';
+
+		// 	}
+		// });
+
+	</script>
 </body>
 </html>

@@ -230,28 +230,3 @@ address p a{
     color: #686868;
     font-size: 12px;
 }
-/*900이하 구간*/
-
-@media screen and (max-width:900px){
-
-    .container{
-        width: 100%;
-        padding-left: 14px;
-        padding-right: 14px;
-        box-sizing: border-box;
-    }
-
-    .portfolio div ul{
-        
-        gap:0;
-    }
-
-
-    .porfolio-list li{
-        width: 100%;
-    }
-    
-    
-
-   
-}
